@@ -9,18 +9,14 @@
 .zeiger{
     background-color: black;
     height: 40px;
-    width: 5px;
+    width: 3px;
     position: absolute;
     left: 50%;
     margin-top: 5px;
     transform: translate(-50%, 0%);
+    transform: rotate(30deg);
+    transform-origin: bottom;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
-.rotating {
-    animation: rotate 1s infinite;
- }
- 
- @keyframes rotate {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
- }
